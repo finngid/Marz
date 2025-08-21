@@ -250,7 +250,7 @@ function TemplateManager(process, shiftToMatch) {
         shift: true,
         redshift: 0,
         start_lambda: 800.6472,
-        end_lambda: 32999.8074,
+        end_lambda: 2999.8074,
         z_start: 1.75,
         z_end: 4,
         log_linear: false,
