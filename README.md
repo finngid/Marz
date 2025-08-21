@@ -1,6 +1,6 @@
 # PFS MARZ 
 
-This fork is aimed to adjust the templates and redshifting to be suitable for higher redshift galaxies (z > 2) targeted with PFS. Thank you Sam Hinton for the original software (see Licensing section below)!
+This fork is aimed to adjust the templates and redshift fitting to be suitable for higher redshift galaxies (z > 2) targeted with the Prime Focus Spectrograph on the Subaru Telescope. Thank you Sam Hinton for the original software (see Licensing section below)!
 
 # Marz Redshifting Program
 
