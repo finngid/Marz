@@ -234,7 +234,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '2',
         quasar: true,
         name: 'Old Stellar Only', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -251,7 +251,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '3',
         quasar: true,
         name: 'Young Stellar Only', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -268,7 +268,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '4',
         quasar: true,
         name: 'Older 05 Emission 01', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -285,7 +285,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '5',
         quasar: true,
         name: 'Younger 05 Emission 01', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -302,7 +302,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '6',
         quasar: true,
         name: 'Older 01 Younger 025 Emission 025', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -319,7 +319,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '7',
         quasar: true,
         name: 'Older 01 Younger 025 Emission 01', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -335,7 +335,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '8',
         quasar: true,
         name: 'Older 01 Younger 01 Emission 025', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
@@ -351,7 +351,7 @@ function TemplateManager(process, shiftToMatch) {
         id: '9',
         quasar: true,
         name: 'Younger 05 Emission 025 No LyA', // added by FDG 
-        shift: true,
+        shift: false,
         redshift: 0,
         start_lambda: 800,
         end_lambda: 4000,
