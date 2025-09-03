@@ -76,9 +76,15 @@ SpectralLines.prototype.initialiseDefault = function() {
     this.addSpectralLine('Lyb','Ly\u03B2', 'Lyman Beta',     1025.722,  0, 1, 1, 'shift+y');
     this.addSpectralLine('Lya','Ly\u03B1', 'Lyman Alpha',    1215.670,  0, 1, 1, 'shift+l');
     this.addSpectralLine('N5', '[NV]',  'Nitrogen 5',        1240.14,   0, 1, 1, 'shift+t');
-    this.addSpectralLine('OI', 'OI', 'Oxygen 1',             1303.0,    0, 1, 1, 'shift+v'); // ADDED BY FDG
+    this.addSpectralLine('Si2', 'SiII', 'Silicon 2',         1264.730,    0, 1, 1, 'shift+1'); // ADDED BY FDG
+    this.addSpectralLine('O1', 'OI', 'Oxygen 1',             1302.168,    0, 1, 1, 'shift+v'); // ADDED BY FDG
+    this.addSpectralLine('C2', 'CII', 'Carbon 2',            1335,    0, 1, 1, 'shift+2', [1334.532,1335.708]); // ADDED BY FDG
+    this.addSpectralLine('O4', 'OIV]', 'Oxygen 4',           1399,    0, 1, 1, 'shift+3'); // ADDED BY FDG
     this.addSpectralLine('Si4','Si4', 'Silicon 4',           1400.0,    0, 1, 1, 'shift+s');
+    this.addSpectralLine('Si22', 'SiII', 'Silicon 22',       1526,    0, 1, 1, 'shift+4'); // ADDED BY FDG
     this.addSpectralLine('C4', 'CIV',  'Carbon 4',           1549.06,   0, 1, 1, 'shift+c');
+    this.addSpectralLine('He2', 'HeII', 'Helium 2',          1649.42,    0, 1, 1, 'shift+5'); // ADDED BY FDG
+    this.addSpectralLine('O32', 'OIII]', 'Oxygen 32',        1663,    0, 1, 1, 'shift+6'); // ADDED BY FDG
     this.addSpectralLine('C3', 'CIII',  'Carbon 3',          1908.73,   0, 1, 1, 'shift+v');
     this.addSpectralLine('Mg2','MgII', 'Magnesium 2',        2798.75,   0, 0, 1, 'shift+m');
     this.addSpectralLine('O2', '[OII]',  'Oxygen 2',         3728.485,  0, 1, 1, 'shift+o', [3727.09, 3729.88]);
