@@ -56,8 +56,8 @@ globalConfig.clipValue = 25;
 // CONFIG FOR REBINNING
 globalConfig.startPowerQ = 2.8;
 globalConfig.endPowerQ = 4.6;
-globalConfig.startPower = 3.3;
-globalConfig.endPower = 4.2;
+globalConfig.startPower = 2.8; //3.3 was old
+globalConfig.endPower = 4.6;  //4.2 was old
 //global.arraySize = 65536; // Must be a power of two
 globalConfig.arraySize = 32768; // Must be a power of two
 globalConfig.returnedMax = 1024;
