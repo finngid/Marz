@@ -31,8 +31,8 @@ globalConfig.polyFitRejectDeviation = 3.5;
 
 // CONFIG FOR CONTINUUM SUBTRACTION
 globalConfig.polyDeg = 6;
-globalConfig.medianWidth = 52; // 51 is default 
-globalConfig.smoothWidth = 122; // 121 is default 
+globalConfig.medianWidth = 51; // 51 is default 
+globalConfig.smoothWidth = 121; // 121 is default 
 
 // QUASAR SPECIFIC CONFIG
 globalConfig.rollingPointWindow = 3;
