@@ -1245,7 +1245,8 @@ function getStandardFFT(lambda, intensity, variance, needSubtracted) {
     intensity = intensity.slice();
     variance = variance.slice();
     taperSpectra(intensity);
-    smoothAndSubtract(intensity);
+    // smoothAndSubtract(intensity); //original has this not commented out
+    
     if (needSubtracted) {
         var subtracted = intensity.slice();
     }
