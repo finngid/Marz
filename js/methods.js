@@ -1265,7 +1265,8 @@ function getStandardFFT(lambda, intensity, variance, needSubtracted) {
     fft.forward(intensity);
 
     if (needSubtracted) {
-        return [fft, subtracted];
+        // return [fft, subtracted];
+        return [fft,fft];
     } else {
         return fft;
     }
