@@ -1265,8 +1265,8 @@ function getStandardFFT(lambda, intensity, variance, needSubtracted) {
     fft.forward(intensity);
 
     if (needSubtracted) {
-        // return [fft, subtracted]; // original is this line here 
-        return [fft,intensity];
+        return [fft, subtracted]; // original is this line here 
+        // return [fft,intensity]; // my line not needed --> two subtracts removed so only single taper 
     } else {
         return fft;
     }
