@@ -356,10 +356,10 @@ TemplateManager.prototype.processTemplates = function () {
         t.start_lambda_linear = t.lambda_linear[0];
         t.end_lambda_linear = t.lambda_linear[t.lambda_linear.length - 1];
 
-        subtractPolyFit(t.lambda_linear, t.spec_linear);
-        if (!t.quasar) {
-            smoothAndSubtract(t.spec_linear);
-        }
+        // subtractPolyFit(t.lambda_linear, t.spec_linear); // commented out by FDG
+        // if (!t.quasar) {
+        //     smoothAndSubtract(t.spec_linear);
+        // }
         // We will create the data to be used for matching only when called for, so the UI does not waste time.
     }
     this.logLambda = linearScale(globalConfig.startPower, globalConfig.endPower, globalConfig.arraySize);
@@ -375,9 +375,9 @@ TemplateManager.prototype.shiftToMatchSpectra = function () {
 TemplateManager.prototype.shiftTemplate = function(t) {
     var ll = t.quasar ? this.logLambdaQ : this.logLambda;
     polyFitReject(t.lambda, t.spec);
-    if (!t.quasar) {
-        smoothAndSubtract(t.spec);
-    }
+    //if (!t.quasar) { //commented out by FDG
+    //    smoothAndSubtract(t.spec);
+    //}
 
     taperSpectra(t.spec);
     normalise(t.spec);
