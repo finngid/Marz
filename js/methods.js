@@ -636,9 +636,9 @@ function polyFitReject(lambda, intensity, interactions, threshold, polyDegree) {
             break;
         }
     }
-    for (i = 0; i < intLength; i++) {
-        intensity[i] = subtracted[i];
-    }
+    //for (i = 0; i < intLength; i++) { // FDG turned off --> dont want to modify! 
+    //    intensity[i] = subtracted[i];
+    // }
     return fit.points;
 }
 function subtract(data, subtract) {
